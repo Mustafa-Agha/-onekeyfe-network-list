@@ -1,0 +1,11 @@
+{
+  "name": "@onekeyfe/network-list",
+  "version": "1.6.38",
+  "description": "The OneKey network list",
+  "main": "build/index.js",
+  "files": [
+    "build"
+  ],
+  "typings": "build/index.d.ts",
+  "license": "MIT"
+}
