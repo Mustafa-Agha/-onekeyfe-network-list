@@ -3037,6 +3037,46 @@
             "shortcode": "tutl",
             "shortname": "TUTL",
             "symbol": "TUTL"
+        },
+        {
+            "balance2FeeDecimals": 0,
+            "chainId": "0",
+            "code": "scc",
+            "decimals": 8,
+            "enable": true,
+            "masternode": true,
+            "explorers": [
+                {
+                    "address": "https://explorer.libra.tube/scc/address/{address}",
+                    "block": "https://explorer.libra.tube/scc/block/{block}",
+                    "name": "https://explorer.libra.tube/scc/",
+                    "transaction": "https://explorer.libra.tube/scc/tx/{transaction}"
+                }
+            ],
+            "fee": {
+                "code": "scc",
+                "decimals": 8,
+                "symbol": "SCC"
+            },
+            "id": "scc--0",
+            "impl": "scc",
+            "isTestnet": false,
+            "logoURI": "https://assets.coingecko.com/coins/images/5534/large/scc-4096x4096.png?1636537419",
+            "name": "SCC",
+            "prices": [
+                {
+                    "channel": "coingecko",
+                    "native": "stakecube"
+                }
+            ],
+            "rpcURLs": [
+                {
+                    "url": "https://explorer.libra.tube/scc"
+                }
+            ],
+            "shortcode": "scc",
+            "shortname": "SCC",
+            "symbol": "SCC"
         }
     ],
     "tags": {},
