@@ -3077,6 +3077,46 @@
             "shortcode": "scc",
             "shortname": "SCC",
             "symbol": "SCC"
+        },
+        {
+            "balance2FeeDecimals": 0,
+            "chainId": "0",
+            "code": "cow",
+            "decimals": 8,
+            "enable": true,
+            "masternode": true,
+            "explorers": [
+                {
+                    "address": "https://explorer.libra.tube/cow/address/{address}",
+                    "block": "https://explorer.libra.tube/cow/block/{block}",
+                    "name": "https://explorer.libra.tube/cow/",
+                    "transaction": "https://explorer.libra.tube/cow/tx/{transaction}"
+                }
+            ],
+            "fee": {
+                "code": "cow",
+                "decimals": 8,
+                "symbol": "COW"
+            },
+            "id": "cow--0",
+            "impl": "cow",
+            "isTestnet": false,
+            "logoURI": "https://assets.coingecko.com/coins/images/8142/large/logo_size_icon.jpg?1555551236",
+            "name": "COWRY",
+            "prices": [
+                {
+                    "channel": "coingecko",
+                    "native": "cowry"
+                }
+            ],
+            "rpcURLs": [
+                {
+                    "url": "https://explorer.libra.tube/cow"
+                }
+            ],
+            "shortcode": "cow",
+            "shortname": "COW",
+            "symbol": "COW"
         }
     ],
     "tags": {},
