@@ -12,6 +12,7 @@
             "code": "ada",
             "decimals": 6,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://cardanoscan.io/address/{address}",
@@ -52,6 +53,7 @@
             "code": "algo",
             "decimals": 6,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://algoexplorer.io/address/{address}",
@@ -104,6 +106,7 @@
             "code": "talgo",
             "decimals": 6,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://testnet.algoexplorer.io/address/{address}",
@@ -139,6 +142,7 @@
             "code": "apt",
             "decimals": 8,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://explorer.aptoslabs.com/account/{address}/?network=mainnet",
@@ -190,6 +194,7 @@
             "code": "tapt",
             "decimals": 8,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://explorer.aptoslabs.com/account/{address}/?network=testnet",
@@ -224,6 +229,7 @@
             "code": "bch",
             "decimals": 8,
             "enable": true,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://bchblockexplorer.com/address/{address}",
@@ -272,6 +278,7 @@
             "code": "btc",
             "decimals": 8,
             "enable": true,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://btc.com/{address}",
@@ -335,6 +342,7 @@
             "code": "cfx",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://confluxscan.io/address/{address}",
@@ -380,6 +388,7 @@
             "code": "tcfx",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://testnet.confluxscan.io/address/{address}",
@@ -414,6 +423,7 @@
             "code": "akash",
             "decimals": 6,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://www.mintscan.io/akash/account/{address}",
@@ -476,6 +486,7 @@
             "code": "cosmoshub",
             "decimals": 6,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://www.mintscan.io/cosmos/account/{address}",
@@ -538,6 +549,7 @@
             "code": "cryptoorgchain",
             "decimals": 8,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://www.mintscan.io/crypto-org/account/{address}",
@@ -600,6 +612,7 @@
             "code": "fetch",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://www.mintscan.io/fetchai/account/{address}",
@@ -663,6 +676,7 @@
             "code": "juno",
             "decimals": 6,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://www.mintscan.io/juno/account/{address}",
@@ -727,6 +741,7 @@
             "code": "osmosis",
             "decimals": 6,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://www.mintscan.io/osmosis/account/{address}",
@@ -795,6 +810,7 @@
             "code": "terra",
             "decimals": 6,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://finder.terra.money/mainnet/address/{address}",
@@ -846,6 +862,7 @@
             "code": "secretnetwork",
             "decimals": 6,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://www.mintscan.io/secret/account/{address}",
@@ -911,6 +928,7 @@
             "code": "doge",
             "decimals": 8,
             "enable": true,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://dogeblocks.com/address/{address}",
@@ -959,6 +977,7 @@
             "code": "eth",
             "decimals": 18,
             "enable": true,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://cn.etherscan.com/address/{address}",
@@ -1067,6 +1086,7 @@
             "code": "optimism",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://optimistic.etherscan.io/address/{address}",
@@ -1128,6 +1148,7 @@
             "code": "xdai",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://blockscout.com/xdai/mainnet/address/{address}",
@@ -1194,6 +1215,7 @@
             "code": "ethw",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://www.oklink.com/ethw/address/{address}",
@@ -1241,6 +1263,7 @@
             "code": "heco",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://hecoinfo.com/address/{address}",
@@ -1294,6 +1317,7 @@
             "code": "aurora",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://aurorascan.dev/address/{address}",
@@ -1337,6 +1361,7 @@
             "code": "polygon",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://polygonscan.com/address/{address}",
@@ -1418,6 +1443,7 @@
             "code": "cronos",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://cronos.crypto.org/explorer/address/{address}",
@@ -1489,6 +1515,7 @@
             "code": "fantom",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://ftmscan.com/address/{address}",
@@ -1562,6 +1589,7 @@
             "code": "boba",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://blockexplorer.boba.network/address/{address}",
@@ -1615,6 +1643,7 @@
             "code": "arbitrum",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://arbiscan.io/address/{address}",
@@ -1676,6 +1705,7 @@
             "code": "celo",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://explorer.celo.org/address/{address}",
@@ -1735,6 +1765,7 @@
             "code": "avalanche",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://cchain.explorer.avax.network/address/{address}",
@@ -1797,6 +1828,7 @@
             "code": "etf",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://explorer.etherfiar.org/address/{address}",
@@ -1844,6 +1876,7 @@
             "code": "bsc",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://bscscan.com/address/{address}",
@@ -1951,6 +1984,7 @@
             "code": "etc",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://blockscout.com/etc/mainnet/address/{address}",
@@ -1993,6 +2027,7 @@
             "code": "okt",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://www.oklink.com/okexchain/address/{address}",
@@ -2044,6 +2079,7 @@
             "code": "mvm",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://scan.mvm.dev/address/{address}",
@@ -2081,6 +2117,7 @@
             "code": "theco",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://testnet.hecoinfo.com/address/{address}",
@@ -2115,6 +2152,7 @@
             "code": "tboba",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://blockexplorer.rinkeby.boba.network/address/{address}",
@@ -2149,6 +2187,7 @@
             "code": "tarbitrum",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://rinkeby-explorer.arbitrum.io/address/{address}",
@@ -2183,6 +2222,7 @@
             "code": "goerli",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://goerli.etherscan.io/address/{address}",
@@ -2229,6 +2269,7 @@
             "code": "tokt",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://www.oklink.com/okexchain-test/address/{address}",
@@ -2263,6 +2304,7 @@
             "code": "toptimism",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://kovan-optimistic.etherscan.io/address/{address}",
@@ -2302,6 +2344,7 @@
             "code": "tpolygon",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://mumbai.polygonscan.com/address/{address}",
@@ -2351,6 +2394,7 @@
             "code": "tbsc",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://testnet.bscscan.com/address/{address}",
@@ -2385,6 +2429,7 @@
             "code": "fil",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://filscan.io/address/general?address={address}",
@@ -2427,6 +2472,7 @@
             "code": "tfil",
             "decimals": 18,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://calibration.filscan.io/address/general?address={address}",
@@ -2461,6 +2507,7 @@
             "code": "ltc",
             "decimals": 8,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://litecoinblockexplorer.net/address/{address}",
@@ -2509,6 +2556,7 @@
             "code": "near",
             "decimals": 24,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://explorer.mainnet.near.org/accounts/{address}",
@@ -2557,6 +2605,7 @@
             "code": "tnear",
             "decimals": 24,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://explorer.testnet.near.org/accounts/{address}",
@@ -2591,6 +2640,7 @@
             "code": "sol",
             "decimals": 9,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://explorer.solana.com/address/{address}",
@@ -2650,6 +2700,7 @@
             "code": "tsol",
             "decimals": 9,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://explorer.solana.com/address/{address}?cluster=devnet",
@@ -2684,6 +2735,7 @@
             "code": "stc",
             "decimals": 9,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://stcscan.io/main/address/{address}",
@@ -2729,6 +2781,7 @@
             "code": "tstc",
             "decimals": 9,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://stcscan.io/barnard/address/{address}",
@@ -2763,6 +2816,7 @@
             "code": "sui",
             "decimals": 9,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://explorer.sui.io/addresses/{address}/?network=testnet",
@@ -2797,6 +2851,7 @@
             "code": "sui",
             "decimals": 9,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://explorer.sui.io/addresses/{address}/?network=devnet",
@@ -2831,6 +2886,7 @@
             "code": "tbtc",
             "decimals": 8,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://live.blockcypher.com/btc-testnet/address/{address}",
@@ -2877,6 +2933,7 @@
             "code": "trx",
             "decimals": 6,
             "enable": true,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://tronscan.org/#/address/{address}",
@@ -2920,6 +2977,7 @@
             "code": "ttrx",
             "decimals": 6,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://shasta.tronscan.org/#/address/{address}",
@@ -2953,6 +3011,7 @@
             "code": "xrp",
             "decimals": 6,
             "enable": false,
+            "maintenance": false,
             "explorers": [
                 {
                     "address": "https://xrpscan.com/account/{address}",
@@ -3004,6 +3063,7 @@
             "code": "tutl",
             "decimals": 8,
             "enable": false,
+            "maintenance": false,
             "masternode": true,
             "explorers": [
                 {
@@ -3044,6 +3104,7 @@
             "code": "scc",
             "decimals": 8,
             "enable": false,
+            "maintenance": false,
             "masternode": true,
             "explorers": [
                 {
@@ -3084,6 +3145,7 @@
             "code": "cow",
             "decimals": 8,
             "enable": false,
+            "maintenance": false,
             "masternode": true,
             "explorers": [
                 {
