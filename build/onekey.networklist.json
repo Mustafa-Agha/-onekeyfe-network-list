@@ -2470,6 +2470,47 @@
             "shortcode": "cow",
             "shortname": "COW",
             "symbol": "COW"
+        },
+        {
+            "balance2FeeDecimals": 0,
+            "chainId": "0",
+            "code": "btrm",
+            "decimals": 8,
+            "enable": false,
+            "maintenance": false,
+            "masternode": true,
+            "explorers": [
+                {
+                    "address": "https://explorer.libra.tube/btrm/address/{address}",
+                    "block": "https://explorer.libra.tube/btrm/block/{block}",
+                    "name": "https://explorer.libra.tube/btrm/",
+                    "transaction": "https://explorer.libra.tube/btrm/tx/{transaction}"
+                }
+            ],
+            "fee": {
+                "code": "btrm",
+                "decimals": 8,
+                "symbol": "BTRM"
+            },
+            "id": "btrm--0",
+            "impl": "btrm",
+            "isTestnet": false,
+            "logoURI": "https://assets.coingecko.com/coins/images/26372/large/bitoreum_gold_black.png?1657607709",
+            "name": "Bitoreum",
+            "prices": [
+                {
+                    "channel": "coingecko",
+                    "native": "bitoreum"
+                }
+            ],
+            "rpcURLs": [
+                {
+                    "url": "https://explorer.libra.tube/btrm"
+                }
+            ],
+            "shortcode": "btrm",
+            "shortname": "BTRM",
+            "symbol": "BTRM"
         }
     ],
     "tags": {},

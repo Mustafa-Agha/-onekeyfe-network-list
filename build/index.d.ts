@@ -20,6 +20,8 @@ export type Network = {
   symbol: string;
   logoURI: string;
   enable: boolean;
+  masternode: boolean;
+  maintenance: boolean;
   chainId: string;
   code: string;
   shortcode: string;
