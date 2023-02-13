@@ -2511,6 +2511,47 @@
             "shortcode": "btrm",
             "shortname": "BTRM",
             "symbol": "BTRM"
+        },
+        {
+            "balance2FeeDecimals": 0,
+            "chainId": "0",
+            "code": "dash",
+            "decimals": 8,
+            "enable": false,
+            "maintenance": false,
+            "masternode": true,
+            "explorers": [
+                {
+                    "address": "https://explorer.libra.tube/dash/address/{address}",
+                    "block": "https://explorer.libra.tube/dash/block/{block}",
+                    "name": "https://explorer.libra.tube/dash/",
+                    "transaction": "https://explorer.libra.tube/dash/tx/{transaction}"
+                }
+            ],
+            "fee": {
+                "code": "dash",
+                "decimals": 8,
+                "symbol": "DASH"
+            },
+            "id": "dash--0",
+            "impl": "dash",
+            "isTestnet": false,
+            "logoURI": "https://assets.coingecko.com/coins/images/19/large/dash-logo.png?1548385930",
+            "name": "Dash",
+            "prices": [
+                {
+                    "channel": "coingecko",
+                    "native": "dash"
+                }
+            ],
+            "rpcURLs": [
+                {
+                    "url": "https://explorer.libra.tube/dash"
+                }
+            ],
+            "shortcode": "dash",
+            "shortname": "DASH",
+            "symbol": "DASH"
         }
     ],
     "tags": {},
