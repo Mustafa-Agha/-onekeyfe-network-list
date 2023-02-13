@@ -2593,6 +2593,47 @@
             "shortcode": "firo",
             "shortname": "FIRO",
             "symbol": "FIRO"
+        },
+        {
+            "balance2FeeDecimals": 0,
+            "chainId": "0",
+            "code": "pivx",
+            "decimals": 8,
+            "enable": false,
+            "maintenance": false,
+            "masternode": true,
+            "explorers": [
+                {
+                    "address": "https://explorer.libra.tube/pivx/address/{address}",
+                    "block": "https://explorer.libra.tube/pivx/block/{block}",
+                    "name": "https://explorer.libra.tube/pivx/",
+                    "transaction": "https://explorer.libra.tube/pivx/tx/{transaction}"
+                }
+            ],
+            "fee": {
+                "code": "pivx",
+                "decimals": 8,
+                "symbol": "PIVX"
+            },
+            "id": "pivx--0",
+            "impl": "pivx",
+            "isTestnet": false,
+            "logoURI": "https://assets.coingecko.com/coins/images/548/large/PIVX-Shield.png?1609817792",
+            "name": "Pivx",
+            "prices": [
+                {
+                    "channel": "coingecko",
+                    "native": "pivx"
+                }
+            ],
+            "rpcURLs": [
+                {
+                    "url": "https://explorer.libra.tube/pivx"
+                }
+            ],
+            "shortcode": "pivx",
+            "shortname": "PIVX",
+            "symbol": "PIVX"
         }
     ],
     "tags": {},
