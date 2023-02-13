@@ -2675,6 +2675,47 @@
             "shortcode": "rtm",
             "shortname": "RTM",
             "symbol": "RTM"
+        },
+        {
+            "balance2FeeDecimals": 0,
+            "chainId": "0",
+            "code": "btx",
+            "decimals": 8,
+            "enable": false,
+            "maintenance": false,
+            "masternode": true,
+            "explorers": [
+                {
+                    "address": "https://explorer.libra.tube/btx/address/{address}",
+                    "block": "https://explorer.libra.tube/btx/block/{block}",
+                    "name": "https://explorer.libra.tube/btx/",
+                    "transaction": "https://explorer.libra.tube/btx/tx/{transaction}"
+                }
+            ],
+            "fee": {
+                "code": "btx",
+                "decimals": 8,
+                "symbol": "BTX"
+            },
+            "id": "btx--0",
+            "impl": "btx",
+            "isTestnet": false,
+            "logoURI": "https://assets.coingecko.com/coins/images/680/large/BitCoreBTXlogoJan2021inv.png?1625467641",
+            "name": "Bitcore",
+            "prices": [
+                {
+                    "channel": "coingecko",
+                    "native": "bitcore"
+                }
+            ],
+            "rpcURLs": [
+                {
+                    "url": "https://explorer.libra.tube/btx"
+                }
+            ],
+            "shortcode": "btx",
+            "shortname": "BTX",
+            "symbol": "BTX"
         }
     ],
     "tags": {},
