@@ -2552,6 +2552,47 @@
             "shortcode": "dash",
             "shortname": "DASH",
             "symbol": "DASH"
+        },
+        {
+            "balance2FeeDecimals": 0,
+            "chainId": "0",
+            "code": "firo",
+            "decimals": 8,
+            "enable": false,
+            "maintenance": false,
+            "masternode": true,
+            "explorers": [
+                {
+                    "address": "https://explorer.libra.tube/firo/address/{address}",
+                    "block": "https://explorer.libra.tube/firo/block/{block}",
+                    "name": "https://explorer.libra.tube/firo/",
+                    "transaction": "https://explorer.libra.tube/firo/tx/{transaction}"
+                }
+            ],
+            "fee": {
+                "code": "firo",
+                "decimals": 8,
+                "symbol": "FIRO"
+            },
+            "id": "firo--0",
+            "impl": "firo",
+            "isTestnet": false,
+            "logoURI": "https://assets.coingecko.com/coins/images/479/large/firocoingecko.png?1636537544",
+            "name": "Firo",
+            "prices": [
+                {
+                    "channel": "coingecko",
+                    "native": "zcoin"
+                }
+            ],
+            "rpcURLs": [
+                {
+                    "url": "https://explorer.libra.tube/firo"
+                }
+            ],
+            "shortcode": "firo",
+            "shortname": "FIRO",
+            "symbol": "FIRO"
         }
     ],
     "tags": {},
