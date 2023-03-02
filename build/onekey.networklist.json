@@ -2716,6 +2716,47 @@
             "shortcode": "btx",
             "shortname": "BTX",
             "symbol": "BTX"
+        },
+        {
+            "balance2FeeDecimals": 0,
+            "chainId": "0",
+            "code": "zcr",
+            "decimals": 8,
+            "enable": false,
+            "maintenance": false,
+            "masternode": true,
+            "explorers": [
+                {
+                    "address": "https://explorer.libra.tube/zcr/address/{address}",
+                    "block": "https://explorer.libra.tube/zcr/block/{block}",
+                    "name": "https://explorer.libra.tube/zcr/",
+                    "transaction": "https://explorer.libra.tube/zcr/tx/{transaction}"
+                }
+            ],
+            "fee": {
+                "code": "zcr",
+                "decimals": 8,
+                "symbol": "ZCR"
+            },
+            "id": "zcr--0",
+            "impl": "zcr",
+            "isTestnet": false,
+            "logoURI": "https://assets.coingecko.com/coins/images/4050/large/zcore300.png?1547039185",
+            "name": "ZCore",
+            "prices": [
+                {
+                    "channel": "coingecko",
+                    "native": "zcore"
+                }
+            ],
+            "rpcURLs": [
+                {
+                    "url": "https://explorer.libra.tube/zcr"
+                }
+            ],
+            "shortcode": "zcr",
+            "shortname": "ZCR",
+            "symbol": "ZCR"
         }
     ],
     "tags": {},
