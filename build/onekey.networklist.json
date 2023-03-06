@@ -2757,6 +2757,47 @@
             "shortcode": "zcr",
             "shortname": "ZCR",
             "symbol": "ZCR"
+        },
+        {
+            "balance2FeeDecimals": 0,
+            "chainId": "0",
+            "code": "yerb",
+            "decimals": 8,
+            "enable": false,
+            "maintenance": false,
+            "masternode": true,
+            "explorers": [
+                {
+                    "address": "https://explorer.libra.tube/yerb/address/{address}",
+                    "block": "https://explorer.libra.tube/yerb/block/{block}",
+                    "name": "https://explorer.libra.tube/yerb/",
+                    "transaction": "https://explorer.libra.tube/yerb/tx/{transaction}"
+                }
+            ],
+            "fee": {
+                "code": "yerb",
+                "decimals": 8,
+                "symbol": "YERB"
+            },
+            "id": "yerb--0",
+            "impl": "yerb",
+            "isTestnet": false,
+            "logoURI": "https://i.imgur.com/FQDB1Hd.png",
+            "name": "Yerbas",
+            "prices": [
+                {
+                    "channel": "coingecko",
+                    "native": "yerbas"
+                }
+            ],
+            "rpcURLs": [
+                {
+                    "url": "https://explorer.libra.tube/yerb"
+                }
+            ],
+            "shortcode": "yerb",
+            "shortname": "YERB",
+            "symbol": "YERB"
         }
     ],
     "tags": {},
