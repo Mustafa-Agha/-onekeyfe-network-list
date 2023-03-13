@@ -2798,6 +2798,47 @@
             "shortcode": "yerb",
             "shortname": "YERB",
             "symbol": "YERB"
+        },
+        {
+            "balance2FeeDecimals": 0,
+            "chainId": "0",
+            "code": "bbc",
+            "decimals": 8,
+            "enable": false,
+            "maintenance": false,
+            "masternode": true,
+            "explorers": [
+                {
+                    "address": "https://explorer.libra.tube/bbc/address/{address}",
+                    "block": "https://explorer.libra.tube/bbc/block/{block}",
+                    "name": "https://explorer.libra.tube/bbc/",
+                    "transaction": "https://explorer.libra.tube/bbc/tx/{transaction}"
+                }
+            ],
+            "fee": {
+                "code": "bbc",
+                "decimals": 8,
+                "symbol": "BBC"
+            },
+            "id": "bbc--0",
+            "impl": "bbc",
+            "isTestnet": false,
+            "logoURI": "https://assets.coingecko.com/coins/images/28035/large/200x200.png?1667120073",
+            "name": "Babacoin",
+            "prices": [
+                {
+                    "channel": "coingecko",
+                    "native": "babacoin"
+                }
+            ],
+            "rpcURLs": [
+                {
+                    "url": "https://explorer.libra.tube/bbc"
+                }
+            ],
+            "shortcode": "bbc",
+            "shortname": "BBC",
+            "symbol": "BBC"
         }
     ],
     "tags": {},
