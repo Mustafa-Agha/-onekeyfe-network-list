@@ -2839,6 +2839,47 @@
             "shortcode": "bbc",
             "shortname": "BBC",
             "symbol": "BBC"
+        },
+        {
+            "balance2FeeDecimals": 0,
+            "chainId": "0",
+            "code": "gspc",
+            "decimals": 8,
+            "enable": false,
+            "maintenance": false,
+            "masternode": true,
+            "explorers": [
+                {
+                    "address": "https://explorer.libra.tube/gspc/address/{address}",
+                    "block": "https://explorer.libra.tube/gspc/block/{block}",
+                    "name": "https://explorer.libra.tube/gspc/",
+                    "transaction": "https://explorer.libra.tube/gspc/tx/{transaction}"
+                }
+            ],
+            "fee": {
+                "code": "gspc",
+                "decimals": 8,
+                "symbol": "GSPC"
+            },
+            "id": "gspc--0",
+            "impl": "gspc",
+            "isTestnet": false,
+            "logoURI": "https://i.imgur.com/gvUdI5x.png",
+            "name": "Gspcoin",
+            "prices": [
+                {
+                    "channel": "coingecko",
+                    "native": ""
+                }
+            ],
+            "rpcURLs": [
+                {
+                    "url": "https://explorer.libra.tube/gspc"
+                }
+            ],
+            "shortcode": "gspc",
+            "shortname": "GSPC",
+            "symbol": "GSPC"
         }
     ],
     "tags": {},
