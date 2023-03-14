@@ -2880,6 +2880,47 @@
             "shortcode": "gspc",
             "shortname": "GSPC",
             "symbol": "GSPC"
+        },
+        {
+            "balance2FeeDecimals": 0,
+            "chainId": "0",
+            "code": "pgn",
+            "decimals": 8,
+            "enable": false,
+            "maintenance": false,
+            "masternode": true,
+            "explorers": [
+                {
+                    "address": "https://explorer.libra.tube/pgn/address/{address}",
+                    "block": "https://explorer.libra.tube/pgn/block/{block}",
+                    "name": "https://explorer.libra.tube/pgn/",
+                    "transaction": "https://explorer.libra.tube/pgn/tx/{transaction}"
+                }
+            ],
+            "fee": {
+                "code": "pgn",
+                "decimals": 8,
+                "symbol": "PGN"
+            },
+            "id": "pgn--0",
+            "impl": "pgn",
+            "isTestnet": false,
+            "logoURI": "https://assets.coingecko.com/coins/images/3856/large/pigeon-logo-final-draft-1024px-circle.png?1547038916",
+            "name": "Pigeoncoin",
+            "prices": [
+                {
+                    "channel": "coingecko",
+                    "native": "pigeoncoin"
+                }
+            ],
+            "rpcURLs": [
+                {
+                    "url": "https://explorer.libra.tube/pgn"
+                }
+            ],
+            "shortcode": "pgn",
+            "shortname": "PGN",
+            "symbol": "PGN"
         }
     ],
     "tags": {},
