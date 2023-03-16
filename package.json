@@ -1,6 +1,6 @@
 {
   "name": "@onekeyfe/network-list",
-  "version": "1.6.38",
+  "version": "1.0.1",
   "description": "The OneKey network list",
   "main": "build/index.js",
   "files": [
