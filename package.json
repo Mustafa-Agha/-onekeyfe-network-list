@@ -1,5 +1,5 @@
 {
-  "name": "@onekeyfe/network-list",
+  "name": "@forsa/network-list",
   "version": "1.0.1",
   "description": "The OneKey network list",
   "main": "build/index.js",
